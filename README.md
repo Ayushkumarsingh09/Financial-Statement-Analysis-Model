@@ -1,7 +1,3 @@
-Here’s a clean and professional `README.md` for your project:
-
----
-
 ```markdown
 # Financial Statement Analysis Model
 
@@ -77,17 +73,17 @@ A comprehensive tool for analyzing financial statements, including ratio calcula
 
 ### Run the Application
 1. Execute the main analysis scripts:
-   ```bash
+   ```
    python src/main.py
    ```
 2. Use Jupyter Notebooks for interactive analysis:
-   ```bash
+   ```
    jupyter notebook notebooks/
    ```
 
 ### Running Tests
 Run the unit tests to validate functionality:
-```bash
+```
 pytest tests/
 ```
 
@@ -118,4 +114,4 @@ Update `configs/config.json` to customize paths or settings:
 
 ## License
 This project is licensed under the MIT License.
-```
+
