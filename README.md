@@ -1,10 +1,7 @@
-```markdown
 # Financial Statement Analysis Model
 
 ## Overview
 A comprehensive tool for analyzing financial statements, including ratio calculations, trend analysis, and visualizations. The model helps in deriving actionable insights for financial decision-making.
-
----
 
 ## Features
 - **Data Ingestion**: Preprocessing and loading financial data.
@@ -12,15 +9,6 @@ A comprehensive tool for analyzing financial statements, including ratio calcula
 - **Trend Analysis**: Year-over-year trend analysis for better forecasting.
 - **Visualizations**: Charts for trends and financial metrics.
 - **Report Generation**: Automated reports summarizing key insights.
-
----
-
- Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
----
 
 ## Usage
 
@@ -39,9 +27,6 @@ Run the unit tests to validate functionality:
 ```
 pytest tests/
 ```
-
----
-
 ## Configuration
 Update `configs/config.json` to customize paths or settings:
 ```json
@@ -56,9 +41,6 @@ Update `configs/config.json` to customize paths or settings:
   }
 }
 ```
-
----
-
 ## Outputs
 - **Reports**: Located in `data/outputs/reports/`
 - **Charts**: Located in `data/outputs/charts/`
