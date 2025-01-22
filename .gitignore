@@ -1,0 +1,16 @@
+# Byte-compiled files
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Output data
+data/outputs/
+
+# Virtual environments
+venv/
+.env
+
+# Docker files
+*.log
