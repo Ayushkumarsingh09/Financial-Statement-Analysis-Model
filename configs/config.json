@@ -1,0 +1,11 @@
+{
+    "data_paths": {
+      "financial_statements": "data/inputs/financial_statements.xlsx",
+      "reports": "data/outputs/reports/",
+      "charts": "data/outputs/charts/"
+    },
+    "default_settings": {
+      "decimal_places": 4
+    }
+  }
+  
