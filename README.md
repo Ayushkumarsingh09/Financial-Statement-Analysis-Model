@@ -15,54 +15,7 @@ A comprehensive tool for analyzing financial statements, including ratio calcula
 
 ---
 
-## Project Structure
-```
-├── src/
-│   ├── __init__.py                 # Package initialization
-│   ├── data_ingestion.py           # Data loading and preprocessing
-│   ├── ratio_analysis.py           # Ratio calculation logic
-│   ├── trend_analysis.py           # Trend analysis implementation
-│   ├── visualization.py            # Chart generation
-│   ├── report_generator.py         # Report creation
-│   ├── utils.py                    # Helper functions
-├── notebooks/
-│   ├── Data_Exploration.ipynb      # Interactive data exploration
-│   ├── Ratio_Analysis.ipynb        # Demonstration of ratio analysis
-│   ├── Trend_Analysis.ipynb        # Year-over-year trend analysis
-├── tests/
-│   ├── test_data_ingestion.py      # Unit tests for data ingestion
-│   ├── test_ratio_analysis.py      # Unit tests for ratio analysis
-│   ├── test_trend_analysis.py      # Unit tests for trend analysis
-├── configs/
-│   ├── config.json                 # Configuration for file paths
-├── data/
-│   ├── inputs/                     # Input files (e.g., financial_statements.xlsx)
-│   ├── outputs/                    # Outputs (reports and charts)
-│       ├── reports/                # Generated reports
-│       ├── charts/                 # Generated visualizations
-├── docker/
-│   ├── Dockerfile                  # Docker container setup
-│   ├── docker-compose.yml          # Docker orchestration
-├── requirements.txt                # Python dependencies
-├── README.md                       # Project overview and setup instructions
-├── .gitignore                      # Files to exclude from version control
-```
-
----
-
-## Setup
-
-### Prerequisites
-- Python 3.8 or higher
-- Docker (optional, for containerized deployment)
-
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/financial-analysis.git
-   cd financial-analysis
-   ```
-2. Install the required dependencies:
+ Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
